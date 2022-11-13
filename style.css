@@ -1,0 +1,191 @@
+
+প্রীতি বেবি❤️
+প্রীতি সরকার
+body {
+  margin: 0;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  max-width: 1080px;
+  padding: 0 8pxS;
+
+}
+
+.top-content {
+  background-color: #161616;
+  height: 550px;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-content-img {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 40px;
+}
+
+.top-content-text {
+  float: left;
+  font-size: 30px;
+  padding: 40px;
+}
+
+.main-content {
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: medium;
+}
+
+.watch-live {
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  color: white;
+  background-color: #dd0000;
+  border-radius: 6px;
+}
+
+
+.side-menu {
+  flex: 20%;
+  padding: 15px;
+  height: 200px;
+  background-color: #161616;
+  border-radius: 8px;
+
+}
+
+.side-button {
+  height: 50px;
+  width: 200px;
+  margin: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.side-menu .active {
+  color: white;
+  background-color: #dd0000;
+
+}
+
+.gallery {
+  flex: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  gap: 8px;
+}
+
+.gallery .card {
+  border: 1px solid #ccc;
+  width: 265px;
+  border-radius: 10px;
+}
+
+.gallery .card:hover {
+  border: 1px solid #777;
+}
+
+.gallery .card img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery .card-stats {
+  display: flex;
+  column-gap: 24px;
+
+}
+
+.gallery .card-body {
+  margin: 8px;
+}
+
+.gallery p {
+  font-weight: bold;
+}
+
+.gallery .button {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 4px 12px;
+}
+
+.icon-text {
+  display: flex;
+  column-gap: 6px;
+  justify-content: center;
+
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 24px;
+  clear: both;
+  text-align: center;
+  height: 200px;
+}
+
+footer hr {
+  width: 80%;
+  height: 1px;
+  background-color: #474747;
+  border: none;
+}
+
+.footer-title {
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+
+.footer-links a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+.right-side-img {
+  flex: 30%;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px;
+  padding: 10px;
+}
+
+.right-side-img {
+  border: 1px solid #ccc;
+  width: 265px;
+
+
+}
+
+.right-side-img-text {
+  text-align: center;
+
+}
